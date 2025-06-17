@@ -2,7 +2,10 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  --offBlack: #161513;
+  --offWhite: #FCFCFC;
+  --outline: #ECEBEB;
+  --labelColor: #5E718E;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -76,4 +79,25 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* CSS taken from Assignment A2 */
+#chatMessage {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px var(--outline) solid;
+  border-radius: 5px;
+  background-color: var(--offWhite);
+  box-sizing: border-box;
+}
+
+#username {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px var(--outline) solid;
+  border-radius: 5px;
+  background-color: var(--offWhite);
+  box-sizing: border-box;
 }
