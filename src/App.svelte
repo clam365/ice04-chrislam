@@ -1,7 +1,7 @@
 <script>
   let msgs = []
 
-  const ws = new WebSocket( 'ws://127.0.0.1:3000' )
+  const ws = new WebSocket( 'ws://ice04-chrislam.onrender.com' )
 
   // when connection is established...
   ws.onopen = () => {
